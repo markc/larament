@@ -1,4 +1,4 @@
-name: Deploy Larament App
+name: Deploy
 on:
   push:
     branches:
