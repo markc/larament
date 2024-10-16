@@ -39,7 +39,7 @@ jobs:
         REMOTE_HOST: ${{ secrets.VPS_HOST }}
         REMOTE_USER: ${{ secrets.VPS_USER }}
         REMOTE_PORT: ${{ secrets.VPS_PORT }}
-        TARGET: "/home/u/netserva.net/var/www"
+        TARGET: "/home/u/illareen.net/var/www"
 
     - name: Run Remote/Artisan Commands
       uses: appleboy/ssh-action@v0.1.6
@@ -49,6 +49,6 @@ jobs:
         port: ${{ secrets.VPS_PORT }}
         username: ${{ secrets.VPS_USER }}
         script: |
-          cd /home/u/netserva.net/var/www
+          cd /home/u/illareen.net/var/www
           php artisan migrate --force
           php artisan optimize
