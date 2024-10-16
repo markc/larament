@@ -1,8 +1,8 @@
 # Larament (markc version)
 
-[![Pint](https://github.com/codewithdennis/larament/actions/workflows/pint.yml/badge.svg)](https://packagist.org/packages/codewithdennis/larament)
-[![PEST](https://github.com/codewithdennis/larament/actions/workflows/pest.yml/badge.svg)](https://packagist.org/packages/codewithdennis/larament)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/codewithdennis/larament.svg?style=flat-square)](https://packagist.org/packages/codewithdennis/larament)
+[![Fix Code Style](https://github.com/markc/larament/actions/workflows/pint.yml/badge.svg)](https://github.com/markc/larament/actions/workflows/pint.yml)
+[![PEST](https://github.com/markc/larament/actions/workflows/pest.yml/badge.svg)](https://packagist.org/packages/markc/larament)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/markc/larament.svg?style=flat-square)](https://packagist.org/packages/markc/larament)
 
 Kickstart your project and save time with Larament! This time-saving starter kit includes a Laravel project with FilamentPHP already installed and set up, along with extra features.
 
