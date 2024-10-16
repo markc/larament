@@ -74,7 +74,10 @@
             "@pint",
             "@pest",
             "@phpstan"
-        ]
+        ],
+        "dev": [
+            "php artisan serve"
+        ]    
     },
     "extra": {
         "laravel": {

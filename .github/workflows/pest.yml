@@ -7,12 +7,10 @@ jobs:
     name: Application Operational Test
     runs-on: ubuntu-latest
     steps:
-      - name: Start MYSQL
+      - name: Create Database
         run: |
-          sudo systemctl enable mysql.service
-          sudo systemctl start mysql.service
-          mysql --host 127.0.0.1 -uroot -proot -e 'CREATE DATABASE IF NOT EXISTS laravel;'
-          mysql --host 127.0.0.1 -uroot -proot -e "SELECT @@global.secure_file_priv, @@global.local_infile"
+          mkdir -p database
+          touch database/database.sqlite
 
       - name: Checkout
         uses: actions/checkout@v3
@@ -20,14 +18,14 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '8.3'
           extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv
           coverage: none
 
       - name: Setup NodeJS
         uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 20
 
       - name: Install NodeJS dependencies
         run: |
