@@ -5,7 +5,7 @@
 [![Tests](https://github.com/markc/larament/actions/workflows/pest.yml/badge.svg)](https://github.com/markc/larament/actions/workflows/pest.yml)
 [![Deploy](https://github.com/markc/larament/actions/workflows/main.yml/badge.svg)](https://github.com/markc/larament/actions/workflows/main.yml)
 
-Kickstart your project and save time with Larament! This time-saving starter kit includes a Laravel project with FilamentPHP already installed and set up, along with extra features.
+Kickstart your project and save time with Larament! This time-saving starter kit includes a Laravel project with FilamentPHP already installed and set up, along with extra features such as the Filament FBlog plugin.
 
 > [!NOTE]
 > This starter kit includes **Laravel 11** and **FilamentPHP 3** with some packages that improve the development experience. This will not contain any bloated features or unnecessary packages. If you want to add more features, you can do so by installing the necessary packages. 
