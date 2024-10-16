@@ -1,4 +1,4 @@
-name: Deploy Laraconf 11 App
+name: Deploy Larament App
 on:
   push:
     branches:
